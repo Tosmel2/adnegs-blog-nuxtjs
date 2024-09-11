@@ -3,7 +3,7 @@
     <img :src="article?.urlToImage || placeholder_img" alt="Article image" class="object-cover w-full h-48 rounded-md">
     <div class="p-2">
       <div class="flex items-center justify-between mb-2">
-        <p class="text-sm text-gray-600"></p>
+        <p class="text-md font-medium text-[#4B6BFB] bg-gray-100 rounded-md p-2">Technology</p>
         <p class="text-xs text-gray-500">{{ article?.category }}</p>
       </div>
       <h3 class="mb-2 text-lg font-semibold">{{ (article?.title || '').split(' ').slice(0, 12).join(' ') }}</h3>

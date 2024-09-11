@@ -4,6 +4,7 @@ export default defineEventHandler(async () => {
 	try {
 		const response = await fetch(
 			`https://newsapi.org/v2/everything?q=bitcoin&apiKey=b85bd9dcd1a84160a66f5f4ad789555e&pageSize=${15}`
+				// `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${apiKey}&pageSize=${15}`
 		);
 		const data = await response.json();
 		if (!response.ok) {
