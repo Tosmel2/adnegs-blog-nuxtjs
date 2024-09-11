@@ -79,7 +79,6 @@
           <form class="flex flex-col mt-4">
             <input
               placeholder="Email"
-              required=""
               type="text"
               class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded-md focus:outline-[#4B6BFB]"
             />
@@ -101,13 +100,16 @@
         </p>
         <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
-            <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
+            <a href="https://github.com/Tosmel2/adnegs-blog-nuxtjs" target="_blank" class="text-sm text-[#4B6BFB] transition-colors duration-300">Github Repo</a>
           </li>
           <li>
-            <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
+            <a href="/" class="text-sm text-gray-600 transition-colors duration-300">F.A.Q</a>
           </li>
           <li>
-            <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
+            <a href="/" class="text-sm text-gray-600 transition-colors duration-300">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/" class="text-sm text-gray-600 transition-colors duration-300">Terms &amp; Conditions</a>
           </li>
         </ul>
       </div>
